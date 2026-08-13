@@ -1,0 +1,7 @@
+# Copyright (c) 2026 The mROS Z Contributors
+# SPDX-License-Identifier: Apache-2.0
+
+config MROS_Z
+	bool "Enable mROS Z"
+	help
+	  This option enables the mROS Z as a Zephyr module.
