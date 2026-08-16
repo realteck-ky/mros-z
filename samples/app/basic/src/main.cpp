@@ -2,9 +2,7 @@
 #include <zephyr/kernel.h>
 
 int main(void) {
-  printk("Build check of the mROS-Z application.\n");
+  printk("This is mROS Z sample app.\n");
   mros_z::init();
   return 0;
 }
-
-

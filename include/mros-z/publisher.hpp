@@ -1,5 +1,7 @@
 #pragma once
 
+#include <zenoh-pico.h>
+
 namespace mros_z {
 class Publisher {
 public:
@@ -7,5 +9,3 @@ public:
   ~Publisher();
 };
 } // namespace mros_z
-
-

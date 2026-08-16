@@ -1,4 +1,4 @@
-# Copy from https://github.com/github/gitignore/blob/main/C%2B%2B.gitignore
+# Source: https://github.com/github/gitignore/blob/main/C%2B%2B.gitignore
 # Prerequisites
 *.d
 
@@ -69,7 +69,7 @@ Testing/
 .cache/
 
 
-# Copy from https://github.com/zephyrproject-rtos/zephyr/blob/main/.gitignore
+# Source: https://github.com/zephyrproject-rtos/zephyr/blob/main/.gitignore
 # SPDX-License-Identifier: Apache-2.0
 # SPDX-FileCopyrightText: Copyright The Zephyr Project Contributors
 
@@ -200,5 +200,3 @@ ZephyrModuleFile.txt
 
 # Node dependecies
 node_modules
-
-

@@ -5,5 +5,3 @@ config MROS_Z
 	bool "Enable mROS Z"
 	help
 	  This option enables the mROS Z as a Zephyr module.
-
-
