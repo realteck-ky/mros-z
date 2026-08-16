@@ -1,3 +1,14 @@
+name: mros-z
+version: "0.0.1"
+description: Lightweight ROS 2 like runtime for Zephyr RTOS powered by Zenoh-Pico.
+maintainer: "takasehideki"
+contact: "takasehideki@hal.ipc.i.u-tokyo.ac.jp"
+homepage: "https://github.com/mROS-base"
+remote: "https://github.com/mROS-base/mros-z"
+license: Apache-2.0
+
 build:
-  cmake: .
-  kconfig: Kconfig
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
+
+
