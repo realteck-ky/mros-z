@@ -2,7 +2,7 @@ manifest:
   projects:
     - name: zephyr
       url: https://github.com/zephyrproject-rtos/zephyr
-      revision: v4.4.0
+      revision: v4.4.2
       path: zephyr
       clone-depth: 1
       import: true
@@ -12,7 +12,5 @@ manifest:
       revision: 1193d97a4d2e08e18df609e3f0bdcc4ab36f47e0
       path: modules/lib/zenoh-pico
 
-    - name: mros-z
-      url: https://github.com/mROS-base/mros-z
-      revision: main
-      path: modules/lib/mros-z
+  self:
+    path: modules/lib/mros-z

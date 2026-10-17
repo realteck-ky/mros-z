@@ -10,3 +10,5 @@ license: Apache-2.0
 build:
   cmake: zephyr
   kconfig: zephyr/Kconfig.mros-z
+  depends:
+    - zenoh-pico

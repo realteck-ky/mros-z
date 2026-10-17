@@ -1,0 +1,25 @@
+{
+    "name": "mROS-Z Dev Container",
+    "image": "ghcr.io/zephyrproject-rtos/zephyr-build",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainer-community/devcontainer-features/collection-c-cpp:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mylonics.zephyr-ide-extension-pack"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    },
+    "mounts": [
+        // You can add local zephyr project workspace.
+        // "source=${localEnv:HOME}/zephyrproject,target=/workspace,type=bind"
+        // You also can use Docker volume.
+        // "source=zephyrproject,target=/workspace,type=volume"
+    ],
+    "postCreateCommand": "bash -c 'sudo chown $(whoami) ../ && if [ ! -d ../.west ]; then west init -l . && west update; fi'"
+}
